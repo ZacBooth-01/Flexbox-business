@@ -132,3 +132,49 @@ html {
     text-align: center;
     color: white;
 }
+
+/* About Us Attributes */
+
+#about-header {
+    font-size: 70px;
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+#about .employees {
+    height: 500px;
+    width: 18%;
+    min-width: 350px;
+    margin-top: 60px;
+}
+
+.employees img {
+    height: 100%;
+    width: 100%;
+}
+
+.employees .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    opacity: 0.6;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 15%;
+    height: 10%;
+}
