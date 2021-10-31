@@ -178,3 +178,66 @@ html {
     bottom: 15%;
     height: 10%;
 }
+
+/* Contact Us Attributes */
+
+#contact-heading {
+    font-size: 70px;
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+
+#contact .map {
+    height: 80%;
+    width: 25%;
+    min-width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#contact .map img {
+    height: 100%;
+    width: 100%;
+}
+
+#contact .location-and-info {
+    
+    min-width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#location {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 25%;
+
+}
+
+/* Footer Attributes */
+
+#footer {
+    display: flex;
+    height: 100px;
+    width: 100%; 
+    font-size: 18px;
+    color: white;
+    justify-content: right;
+    align-items: flex-end;
+}
